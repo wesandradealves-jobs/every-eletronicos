@@ -1,0 +1,81 @@
+@charset "utf-8";
+@import url("reset.css");
+@import url("jquery.fullPage.css");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,400italic,300italic,600italic,700,700italic,800,800italic&subset=latin,latin-ext);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+body *{
+	/*word-break:break-all;*/
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+input,
+textarea,
+button,
+body{font-family:"Open Sans",sans-serif;}
+
+button,input[type="submit"]{border:0;}
+
+body a{text-decoration:none;}
+
+.wrap{
+	position:relative;
+	display:block;
+	margin:0px auto;
+	width: 85%;
+	max-width: 1380px;
+}
+
+.b{display:block;}
+
+.l{
+	position:relative;
+	float:left;
+}
+
+.r{
+	position:relative;
+	float:right;
+}
+
+.c::after{
+	clear:both;
+	position: relative;
+	display: block;
+	content: "";
+}
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+
+#wrap {
+	min-height:100%;
+	position:relative;
+}
+
+textarea[placeholder] { text-overflow: ellipsis; color:#999; opacity: 1; font-weight: 300; }
+input[placeholder] { text-overflow: ellipsis; color:#999; opacity: 1; font-weight: 300; }
+::-moz-placeholder { text-overflow: ellipsis; color:#999; opacity: 1; font-weight: 300; }
+input::-webkit-input-placeholder {color: #999; opacity: 1; font-weight: 300;}
+textarea::-webkit-input-placeholder {color: #999; opacity: 1; font-weight: 300;}
+input:-ms-input-placeholder {color: #999; opacity: 1; font-weight: 300;}
+textarea:-ms-input-placeholder {color: #999; opacity: 1; font-weight: 300;}
